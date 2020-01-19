@@ -24,6 +24,3 @@ class Solution:
             print(list)
             if dividend < divisor:
                 return len(list)
-
-a = Solution()
-#print(a.divide(2, -2))

@@ -5,4 +5,3 @@ def lcm(a, b):
         a = a + constant
         print(f'a = {a}')
     return a
-

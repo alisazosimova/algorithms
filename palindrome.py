@@ -16,7 +16,7 @@ def is_palindrome(word):
             if list_from_word[i] != list_from_word[number_of_letters - 1 - i]:
                 return False
     return True
-
+# Solution from Internet
 def is_palindrome2(word):
     return word.lower() == word[::-1].lower()
 

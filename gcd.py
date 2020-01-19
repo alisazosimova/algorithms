@@ -11,10 +11,3 @@ def gcd(a, b):
         return max(a, b)
     else:
         return gcd(min(a, b),  max(a, b) % min(a, b))
-
-a = 10
-b = 9
-
-
-print(gcd(a, b))
-print(gcd_naive(a, b))
